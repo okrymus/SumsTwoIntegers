@@ -1,0 +1,31 @@
+// This program sums 2 intergers
+// Sum number project
+// The programmer: Panupong Leenawarat
+// last modified 23 september 2015
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int integer1, integer2;
+
+	cout 
+		<< "\n\t\t    Two number adder  "
+		<< "\n\t\t   Panupong Leenawarat   " ;
+	
+
+	cout << "\n\nPlease give me an integer: ";
+	cin >> integer1;
+	cin.ignore(80, '\n');
+	
+	cout << "Please give me an another integer: " ;
+	cin >> integer2;
+	cin.ignore(80, '\n');
+
+	// Display the sum
+	cout << "\nThe sum of \"" << integer1 << "+" << integer2 << "=\" " << integer1 + integer2 << endl << endl;
+
+	system("pause");
+	return 0;
+}
